@@ -22,7 +22,7 @@ app.use(cors({
 app.use(bodyParser.json());
 
 // MongoDB connection string
-const mongoURI = 'mongodb+srv://vijaysaw50:vijay123@cluster0.ildzm.mongodb.net/mernapp?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://vijaysaw50:<password>@cluster0.ildzm.mongodb.net/mernapp?retryWrites=true&w=majority';
 
 // Connect to MongoDB
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true })
