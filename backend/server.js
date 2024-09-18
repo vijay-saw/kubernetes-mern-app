@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = process.env.PORT || 5000;
 
-// Middleware
+// Middlewaree
 // app.use(cors({
 //   origin: ['http://localhost:3000', 'http://localhost:3001'], // Update this to your frontend's URL if different
 //   methods: 'GET,POST',
