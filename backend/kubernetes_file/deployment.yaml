@@ -21,4 +21,4 @@ spec:
         - containerPort: 5000
         env:
         - name: MONGO_URI
-          value: 'mongodb+srv://vijaysaw50:vijay123@cluster0.ildzm.mongodb.net/mernapp?retryWrites=true&w=majority'
+          value: 'mongodb+srv://vijaysaw50:<yourpassword>@cluster0.ildzm.mongodb.net/mernapp?retryWrites=true&w=majority'
